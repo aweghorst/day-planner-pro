@@ -88,3 +88,30 @@ textarea{
 .dim {
   opacity: 40%;
 }
+
+
+
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    .hour {
+      overflow-wrap:initial;
+      text-orientation: upright;
+      font-size:80%;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .hour {
+    overflow-wrap:break-word;
+    text-align:center;
+  }   
+}
+
+@media screen and (max-width: 575px) {
+  .hour {
+    overflow-wrap:break-word;
+    text-orientation: upright;
+    font-size:80%;
+  }
+}
