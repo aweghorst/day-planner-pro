@@ -13,7 +13,7 @@ This is an app to keep track of events throughout your work day!
 * moment.js
 
 ## Website
-https://aweghorst.github.io/day-planner-pro/![screenshot-aweghorst github io-2021 04 25-13_37_39](https://user-images.githubusercontent.com/80176140/116005192-72ecd580-a5cb-11eb-8ff7-4686d3e04b66.png)
+https://aweghorst.github.io/day-planner-pro/
 
 
 ##ScreenShot
