@@ -1,19 +1,24 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1;
 }
 
-/*textarea{
+
+textarea{
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  font-size:20px
 }
-*/
+
+.container{
+  background: transparent;
+}
 
 .jumbotron {
   text-align: center;
@@ -23,25 +28,20 @@ body {
   border-bottom: 10px solid black;
 }
 
-.container {
+
+.time-block{
+  text-align: center;
 }
 
-/*
 .description{
   white-space: pre-wrap;
 }
-*/
-
-.time-block{
-  border-radius: 0px 15px 15px 0;
-  height:100%;
-}
 
 .row {
-  display:flex;
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
+
 }
 
 .hour {
@@ -72,12 +72,19 @@ body {
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
-  height:100%;
-  
- 
+  font-size: 25px;
+}
+
+.saveBtn i {
+  padding: 24px;
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
+  font-size: 30px;
+  transition: all .2s ease-in-out;
+  color: black;
+}
+
+.dim {
+  opacity: 40%;
 }
